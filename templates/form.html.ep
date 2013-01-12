@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WoW Character Compare</title>
+</head>
+<body>
+	<h1>Compare!</h1>
+	<form action="/" method="GET">
+		<h2>Personagem 1:</h2>
+		<p>
+			<label>
+				Nome:
+				<br />
+				<input type="text" value="" name="first_name" />
+			</label>
+		</p>
+		<p>
+			<label>
+				Realm:
+				<br />
+				<input type="text" value="" name="first_realm" />
+			</label>
+		</p>
+		<hr />
+		<h2>Personagem 2:</h2>
+		<p>
+			<label>
+				Nome:
+				<br />
+				<input type="text" value="" name="second_name" />
+			</label>
+		</p>
+		<p>
+			<label>
+				Realm:
+				<br />
+				<input type="text" value="" name="second_realm" />
+			</label>
+		</p>
+		<p>
+			<input type="submit" value="now" />
+		</p>
+	</form>
+</body>
+</html>

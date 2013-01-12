@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div>
+		<h2><%= $player_1->{name} %> from <%= $player_1->{realm} %></h2>
+		<p>Level: <%= $player_1->{level} %></p>
+		<img src='http://us.battle.net/static-render/us/<%= $player_1->{thumbnail} %>' />
+	</div>
+	<hr />
+	
+	<div>
+		<h2><%= $player_2->{name} %> from <%= $player_2->{realm} %></h2>
+		<p>Level: <%= $player_2->{level} %></p>
+		<img src='http://us.battle.net/static-render/us/<%= $player_2->{thumbnail} %>' />	
+	</div>
+</body>
+</html>
